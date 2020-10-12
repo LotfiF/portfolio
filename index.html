@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+        <!-- =====JQuery===== -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Lotfi FATHI</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h2 class="home__title">Hi,<br>I'am <span class="home__title-color">Lotfi</span><br> <span class="home__title-color">Java EE - Angular</span> Developer</h2>
+
+                    <a href="#contact" class="submit">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/fathi-lotfi/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/LotfiF" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/perfil.png" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Lotfi</h2>
+                        <p class="about__text">
+                            After a first experience in IT development and a few self-taught projects, I want to join a digital service company in order to validate my current experience, build new skills and meet new challenges in major projects.</p>           
+                    </div> 
+
+                    <div class="about__files">
+                        <a href="assets/files/CV_Lotfi_FATHI.pdf" target="_blank" class="button">Download my resume</a>
+                    </div> 
+                     
+                    <div class="about__files">
+                        <a href="assets/files/Certifications.pdf" target="_blank" class="button">See my certifications</a>
+                    </div>                                 
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Hard skills </h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Front End</h2>
+                        <ul>
+                        <li>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                        </div>
+                        </li>
+                        <li>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                        </div>
+                        </li>
+                        <li>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JavaScript</span>
+                            </div>
+                        </div>
+                        </li>
+                        <li>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-bootstrap skills__icon'></i>
+                                <span class="skills__name">Bootstrap</span>
+                            </div>
+                        </div>
+                        </li>
+                        <li>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-angular skills__icon'></i>
+                                    <span class="skills__name">Angular</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-wordpress skills__icon'></i>
+                                    <span class="skills__name">Wordpress</span>
+                                </div>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2 class="skills__subtitle">Back End</h2>
+                        <ul>
+                        <li>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="iconify icon:cib:java skills__icon"></span>
+                                <span class="skills__name">Java</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="iconify icon:cib:java skills__icon"></span>
+                                <span class="skills__name">Java EE</span>
+                            </div>
+                        </div>
+                        </li>
+                        <li>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <span class="iconify icon:cib:spring skills__icon"></span>
+                                    <span class="skills__name">Spring MVC</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <span class="iconify icon:logos:spring skills__icon"></span>
+                                    <span class="skills__name">Spring Boot</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <span class="iconify icon:dashicons:rest-api skills__icon"></span>
+                                    <span class="skills__name">API Rest</span>
+                                </div>
+                            </div>
+                            </li>
+                        <li>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                              <span class="iconify icon:logos:hibernate skills__icon"></span>                           
+                              <span class="skills__name">Hibernate - JPA</span>
+                            </div>
+                        </div>
+                        </li>
+                        <li>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="iconify icon:cib:mysql skills__icon"></span>
+                                <span class="skills__name">MySQL</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="iconify icon:cib:oracle skills__icon"></span>
+                                <span class="skills__name">Oracle</span>
+                            </div>
+                        </div>
+                        </li>
+                        <li>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-trello skills__icon'></i>
+                                <span class="skills__name">Junit</span>
+                            </div>
+                        </div>
+                        </li>
+                        <li>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <span class="iconify icon:logos:c-plusplus skills__icon"></span>
+                                    <span class="skills__name">C/C++</span>
+                                </div>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="skills__subtitle">Tools</h2>
+                        <ul>
+                            <li>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <span class="iconify icon:cib:apache skills__icon"></span>
+                                        <span class="skills__name">Apache Maven</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <span class="iconify icon:logos:tomcat skills__icon"></span>
+                                        <span class="skills__name">Tomcat</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <span class="iconify icon:cib:oracle skills__icon"></span>
+                                        <span class="skills__name">Glassfish</span>
+                                    </div>
+                                </div>
+                            </li>
+                                <li>
+                                    <div class="skills__data">
+                                        <div class="skills__names">
+                                            <span class="iconify icon:vscode-icons:file-type-plantuml skills__icon"></span>
+                                            <span class="skills__name">UML</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skills__data">
+                                        <div class="skills__names">
+                                            <i class='bx bx-git-branch skills__icon'></i>
+                                            <span class="skills__name">Git</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <div class="skills__names">
+                                            <i class='bx bxl-github skills__icon'></i>
+                                            <span class="skills__name">Github</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skills__data">
+                                        <div class="skills__names">
+                                            <i class='bx bxl-trello skills__icon'></i>
+                                            <span class="skills__name">Trello</span>
+                                        </div>
+                                    </div> 
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </section>
+            <h2 class="section-title">Soft skills </h2>
+                <div class="skills__img">                                  
+                    <a href="https://app.assessfirst.com/_/profile/klx2oa75-fathi-lotfi"><img src="assets/img/soft-skills.png" alt="My soft skills"></a>
+                </div>
+                <div class="skills__soft">
+                    <a href="https://app.assessfirst.com/_/profile/klx2oa75-fathi-lotfi" target="_blank" class="button">My Assessfirst Test Results</a>
+                </div> 
+         
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <a href="https://gestion-de-stock-mvc.herokuapp.com/" target="_blank"><h2 class="work__title">Gestion de stock</h2></a>
+                        <a href="https://gestion-de-stock-mvc.herokuapp.com/" target="_blank"><img src="assets/img/work1.jpg" alt="Mon premier projet" ></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://lotfif.github.io/cvTech/" target="_blank"><h2 class="work__title">CVTech</h2></a>
+                        <a href="https://lotfif.github.io/cvTech/" target="_blank"></a><img src="assets/img/work2.jpg" alt="Mon deuxième projet" ></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://book-app-firebase.web.app/" target="_blank"><h2 class="work__title">BookApp</h2></a>
+                        <a href="https://book-app-firebase.web.app/" target="_blank"></a><img src="assets/img/work3.jpg" alt="Mon troisième projet" ></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://gestion-de-stock-mvc.herokuapp.com/" target="_blank"><h2 class="work__title">MyCountry</h2></a>
+                        <a href="https://gestion-de-stock-mvc.herokuapp.com/" target="_blank"></a><img src="assets/img/work4.jpg" alt="Mon quatrième projet" ></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://gestion-de-stock-mvc.herokuapp.com/" target="_blank"><h2 class="work__title">Fly View</h2></a>
+                        <a href="https://gestion-de-stock-mvc.herokuapp.com/" target="_blank"></a><img src="assets/img/work5.jpg" alt="Mon cinquième projet" ></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://gestion-de-stock-mvc.herokuapp.com/" target="_blank"><h2 class="work__title">Ma commande</h2></a>
+                        <a href="https://gestion-de-stock-mvc.herokuapp.com/" target="_blank"></a><img src="assets/img/work6.jpg" alt="Mon sixième projet" ></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://gestion-de-stock-mvc.herokuapp.com/" target="_blank"><h2 class="work__title">Gestionnaire d'hotel</h2></a>
+                        <a href="https://gestion-de-stock-mvc.herokuapp.com/" target="_blank"></a><img src="assets/img/work7.jpg" alt="Mon septième projet" ></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact__container bd-grid">        
+                    <div class="contact__data">
+                        <div class="contact__names">
+                            <span class="iconify icon:map:postal-code-prefix skills__icon"></span>
+                            <span class="contact__name">75014, Paris</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__data">
+                        <div class="contact__names">
+                            <i class='bx bx-mail-send skills__icon'></i>
+                            <a href="mailto:lotfi.fathi@gmail.com" class="contact__name">lotfi.fathi@gmail.com</a>
+                        </div>
+                    </div> 
+                    <div class="contact__data">
+                        <div class="contact__names">
+                            <i class='bx bx-phone skills__icon'></i>
+                            <span class="contact__name">(+33) 07 52 17 71 02</span>
+                        </div>
+                    </div>  
+                </div> 
+                <div class="message__container bd-grid"> 
+                    <form action="assets/php/contact-form-handler.php" method="post" class="contact__form">
+                        <input name="name" type="text" placeholder="Name" class="contact__input" required>
+                        <input name="email" type="email" placeholder="Email" class="contact__input" required>
+                        <textarea name="message" placeholder="Your message" cols="0" rows="10" class="contact__input" required></textarea> 
+                        <input type="submit" value="Send" class="contact__button submit">
+                    </form>
+                </div>  
+            </section>
+        </main>
+
+        <div id="scrollUp">
+            <a href="#home"><img src="assets/img/arrowup.png"/></a>
+        </div>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Lotfi FATHI</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/fathi-lotfi/" target="_blank" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/LotfiF/" target="_blank" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            <p>&#169; 2020 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
