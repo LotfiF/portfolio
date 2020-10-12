@@ -269,8 +269,6 @@ img{
   margin-bottom: var(--mb-4);
 }
 .skills__data{
- /* display: flex;*/
- /* justify-content: space-between;*/
   display: inline-block;
   text-align: left;
   align-items: center;
@@ -299,7 +297,6 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-
 .skills__img{
   width: 550px;
   border-radius: .5rem;
@@ -310,6 +307,9 @@ img{
   margin-top: var(--mb-2);
   justify-self: center;
   text-align: center;
+}
+.skills_soft_text{
+  color: var(--first-color);
 }
 
 /* ===== WORK =====*/
@@ -354,8 +354,6 @@ img{
   margin-left: auto;
 }
 .contact__data{
-  /* display: flex;*/
-  /* justify-content: space-between;*/
    display: inline-block; 
    text-align: left;
    align-items: center;
@@ -364,6 +362,12 @@ img{
    padding: .2rem 1rem;
    margin-bottom: var(--mb-5);
    border-radius: .5rem;
+}
+.contact__name{
+  color: var(--second-color);
+}
+.contact__email{
+  color: var(--first-color);
 }
  .contact__names{
   display: flex;
